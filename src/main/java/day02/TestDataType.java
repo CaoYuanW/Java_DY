@@ -6,7 +6,7 @@ public class TestDataType {
         System.out.println(b);
 
         byte b1 = 10;
-        //byte B2 = b1 + 20;  异常，类型不匹配
+        //byte b2 = b1 + 20;  异常，类型不匹配
 
         double d = 10;
         System.out.println(d);
