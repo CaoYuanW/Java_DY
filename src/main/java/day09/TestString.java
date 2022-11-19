@@ -38,7 +38,7 @@ public class TestString {
         System.out.println(s9);
         System.out.println(s10);
 
-        // 长度 拼接 索引位置元素 第一次/最后一次出现的索引 截取
+        // 长度 拼接 索引位置元素 第一次/最后一次出现的索引 截取 是否为空
         System.out.println(s8.length());
         System.out.println(s8.concat(s9));
         System.out.println(s8.charAt(2));
@@ -47,6 +47,7 @@ public class TestString {
         System.out.println(s8.lastIndexOf("a"));
         System.out.println(s8.substring(2));
         System.out.println(s8.substring(2,6));
+        System.out.println(s8.isEmpty());
 
         // 遍历
         for (int i = 0; i < s8.length(); i++) {
