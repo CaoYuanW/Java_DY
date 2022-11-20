@@ -1,6 +1,8 @@
 package day09;
 
 
+import java.util.Arrays;
+
 public class TestString {
     public static void main(String[] args) {
         String s1 = "abc";
@@ -32,8 +34,8 @@ public class TestString {
 
         // 替换
         String s8 = "I love java java";
-        String s9 = s8.replace("java","bigdata");
-        String s10 = s8.replaceAll("java","bigdata");
+        String s9 = s8.replace("java", "bigdata");
+        String s10 = s8.replaceAll("java", "bigdata");
         System.out.println(s8);
         System.out.println(s9);
         System.out.println(s10);
@@ -46,7 +48,7 @@ public class TestString {
         System.out.println(s8.indexOf("java"));
         System.out.println(s8.lastIndexOf("a"));
         System.out.println(s8.substring(2));
-        System.out.println(s8.substring(2,6));
+        System.out.println(s8.substring(2, 6));
         System.out.println(s8.isEmpty());
 
         // 遍历
@@ -61,5 +63,10 @@ public class TestString {
         System.out.println(s8.startsWith("I love"));
         System.out.println(s8.endsWith("java"));
         System.out.println(s8.trim());
+
+        //切分
+        String s11 = "1-2-3-4";
+        String[] nums = s11.split("-");
+        System.out.println(Arrays.toString(nums));
     }
 }
