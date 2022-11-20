@@ -9,5 +9,7 @@ public class TestMath {
         System.out.println(Math.round(10.1));
         System.out.println(Math.pow(10,3));
         System.out.println(Math.random());
+        System.out.println(Math.max(10,12));
+        System.out.println(Math.min(10,12));
     }
 }
